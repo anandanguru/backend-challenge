@@ -1,0 +1,17 @@
+{
+  "host":"127.0.0.1",
+  "port":27017,
+  "database":"test",
+  "option": {
+    "db": {
+      "numberOfRetries": 5
+    },
+    "server": {
+      "auto_reconnect": true,
+      "poolSize": 100,
+      "socketOptions": {
+        "connectTimeoutMS": 500
+      }
+    }
+  }
+}
