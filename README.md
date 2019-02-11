@@ -12,3 +12,10 @@ The apis are to
 4.Get all vehicles of a color
 5.Get all vehicles by type (small, medium or large)
 6.Get all vehicles which entered during a given duration
+
+
+DataBase : Mongo Db (change mongo DB configuration in config file)
+
+sudo npm install to inall all the dependencies
+
+sudo npm start to start the server
